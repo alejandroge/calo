@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/city.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.banner {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.logo {
+    display: inline-block;
+    overflow: hidden;
+    margin: auto 0px;
+    position: relative;
+    background-color: pink;
+    width: 150px;
+    margin: 20px;
+    background-color: pink;
+} .logo img {
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+} nav ul {
+    width: 700px;
+    margin-right: 40px;
+} nav ul li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 70px;
+    vertical-align: middle;
+    list-style: none;
+    background-color: rgba(170, 170, 170, 0.7);
+    color: black;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 5px;
+}

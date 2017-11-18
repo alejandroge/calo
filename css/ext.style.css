@@ -6,7 +6,7 @@
 body {
     background-image: url(../images/city.jpg);
     background-size: cover;
-    background-position-y: center;
+    background-position: top;
 }
 
 section {

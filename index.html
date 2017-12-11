@@ -21,9 +21,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.style.css">
+    <link rel="stylesheet" href="css/home.style.css">
+    <link rel="stylesheet" href="css/form.style.css">
     <title>AD render</title>
 </head>
 <body>
@@ -35,29 +38,132 @@
             <nav class="col-md-10">
                 <div class="container">
                     <ul class="row">
-                        <li class="col-md"><a href="exteriores.html">Exteriores</a></li>
-                        <li class="col-md"><a href="interiores.html">Interiores</a></li>
-                        <li class="col-md"><a href="index.html">Productos</a></li>
+                        <li class="col-md"><a href="arquitectura.html">Arquitectura</a></li>
+                        <li class="col-md"><a href="interiores.html">Diseño de Interiores</a></li>
+                        <li class="col-md"><a href="index.html">Panorámicas 360°</a></li>
                         <li class="col-md"><a href="index.html">Maqueta Virtual 3D</a></li>
-                        <li class="col-md"><a href="index.html">Panorámicas 360</a></li>
+                        <li class="col-md"><a href="index.html">Muebles y Pisos</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
 
-    <section class="container">
-        <div class="row">
-            <div class="col-md">
-                <div class="container entry">
-                    <h3>Hello World</h3>
+    <div class="container">
+        <section class="container">
+            <div class="row">
+                <div class="col image"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col subtitle">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum doloremque ducimus veniam rem eum sed voluptate, quos sequi alias autem praesentium nihil non quaerat, saepe voluptates odit, tempora sunt dicta?
+                        ¿Buscas diseñar y construir tu casa?
+                        <br>
+                        Nosotros proyectamos tus ideas, somos tu solución, cotiza sin compromiso...
+                    </p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="container entry" id="first">
+                        <h3>Render y Arquitectura 3D</h3>
+                        <p>
+                            Estamos especializados en realizar proyectos de visualizacióna
+                            arquitectónica a través de renders que sirvan para explicar tú
+                            proyecto tal y como lo imaginas. Nuestra imágenes destacan tanto
+                            por la definición del detalle como por saber transmitir lo que
+                            buscas gracias a una atención personalizada.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="container entry">
+                        <h3>Nosotros</h3>
+                        <p>
+                            Somos un estudio compuesto por un equipo de profesionales y
+                            proyectistas jóvenes. Estamos especializados en el desarrollo
+                            de Arquitectura Digital 3D y Renderizado de alta calidad en
+                            el campo de la arquitectura y el diseño.
+                            </br></br>
+                            Ofrecemos un servicio de calidad, precios, competitivos y el
+                            compromiso de satisfacer sus plazos de entrega.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row columns">
+                <div class="col entry">
+                    <h4>¿Qué es un render?</h4>
+                    <p>
+                        Es una tecnología que, utilizando gráficos por ordenador
+                        permita la creación de imágenes y animaciones.
+                    </p>
+                    <h4>Usos y beneficios</h4>
+                    <p>
+                        Es la solución ideal para explicar, comunicar, presentar
+                        o promocionar cualquier idea o proyecto de forma visual.
+                    </p>
+                </div>
+                <div class="col entry">
+                    <h4>¿Por qué necesitas un render?</h4>
+                    <p>
+                        Porque es más confiable para los usuarios ver y examinar
+                        antes de comprar. Porque una buena presentación.
+                    </p>
+                    <h4>¿Para quienes funciona un render?</h4>
+                    <p>
+                        Para constructoras o empresas que necesitan cerrar ventas
+                        antes de construir. Para diseñadores, etc.
+                    </p>
+                </div>
+                <div class="col entry">
+                    <h4>¿Cómo se elabora?</h4>
+                    <p>
+                        Los proyectos de Arquitectura 3D y renderizado se realizan
+                        a través de un proceso de trabajo cuyos puntos principales
+                        son.
+                    </p>
+                    <h4>Proceso de trabajo</h4>
+                    <p>
+                        Para solicitar un render 3D de baja, media o alta calidad
+                        seguimos el ...
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="row">
+                <div class="col-md">
+                    <div class="container entry">
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <form class="contact" action="index.html" method="post">
+                                    <h4>Contacta con nosotros</h4>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <input type="text" name="Name" placeholder="Ingresa tu nombre" required>
+                                                <input type="text" name="Email" placeholder="Ingresa tu email" required>
+                                                <input type="text" name="Subject" placeholder="Asunto">
+                                                <input type="submit" name="submit" value="Enviar">
+                                            </div>
+                                            <div class="col">
+                                                <textarea name="FormBody" rows="5" cols="30" placeholder="Escribe tu mensaje aquí" required></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>

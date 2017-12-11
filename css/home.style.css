@@ -1,0 +1,39 @@
+section {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+} section .entry {
+    background-color: rgba(50, 50, 50, 0.8);
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+} .entry h3 {
+    margin-bottom: 20px;
+}
+
+.columns .entry:first-child {
+    margin-left: 15px;
+    margin-right: 10px;
+} .columns .entry:last-child {
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+section .image {
+    background-image: url('../images/exteriores/h1.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    height: 500px;
+    margin: 20px;
+    background-color: red;
+}
+
+section .subtitle {
+    color: white;
+    font-size: 2rem;
+    line-height: 2.01rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

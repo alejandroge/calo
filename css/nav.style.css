@@ -1,5 +1,4 @@
 .banner {
-    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 50px;
     overflow: hidden;
 }
@@ -13,28 +12,35 @@
     height: 150px;
 }
 
-nav ul li {
+nav {
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.8);
+    right: 25px;
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+} nav ul li {
     display: inline-block;
-    height: 150px;
-    line-height: 150px;
-    margin-top: 10px;
+    height: 100px;
+    line-height: 100px;
     vertical-align: middle;
     list-style: none;
     color: white;
+    margin-top: 5px;
     text-align: center;
     border-radius: 5px;
-    overflow: hidden;
+    overflow: show;
 } nav ul li:hover {
-    color: black;
-    background-color: rgba(150, 150, 150, 0.7);
+    color: white;
+    background-color: rgba(150, 150, 150, 0.5);
 } nav ul li a {
     color: inherit;
-    width: inherit; 
-    line-height: 150px;
+    width: inherit;
+    line-height: 100px;
     margin: 0px;
     display: inline-block;
 } nav ul li a:hover {
-    color: black;
+    color: white;
     text-decoration: none;
 } nav ul li a:visited {
     color: inherit;

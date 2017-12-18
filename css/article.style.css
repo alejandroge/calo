@@ -1,0 +1,22 @@
+section {
+    margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+} section .entry {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+} .entry h3 {
+    margin-bottom: 20px;
+}
+
+section .entry img{
+    width: inherit;
+}
+
+section .entry iframe {
+    position: relative;
+    margin-left: 50%;
+    left: -360px;
+}

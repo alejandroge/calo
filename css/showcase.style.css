@@ -4,3 +4,11 @@
     padding-bottom: 20px;
     margin-top: 20px;
 }
+
+.img-vert {
+    height: 500px;
+}
+
+.img-hor {
+    height: 250px;
+}

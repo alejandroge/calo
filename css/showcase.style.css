@@ -9,8 +9,16 @@
     height: 500px;
 }
 
+.img-vert-int {
+    height: 600px;
+}
+
 .img-hor1 {
     height: 300px;
+}
+
+.img-hor1-arq {
+    height: 450px;
 }
 
 .img-hor2 {
